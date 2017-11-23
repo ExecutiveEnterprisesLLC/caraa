@@ -9,7 +9,7 @@
 title: CARAA
 email: childrenatriskadvocacy@gmail.com
 description: Children at Risk Advocacy Association.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/caraa" # the subpath of your site, e.g. /blog
 url: "http://children-at-risk-advocacy-association.com" # the base hostname & protocol for your site
 twitter_username:
 
