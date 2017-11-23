@@ -4,7 +4,7 @@ title: United States
 permalink: /us/
 layout: default
 ---
-
+<div>
 <h2>The United States</h2>
 <p>In the 15th issuance of Child Welfare Outcomes 2010 –  2014 Report to Congress on children’s safety permanency and wellbeing, it is reported that
 During 2014, approximately 702,000 children were confirmed to be victims of maltreatment. For the purposes of this report, a victim is a child for whom the state determined at least one maltreatment incident was substantiated or indicated, and a disposition of substantiated, indicated, or “alternative response victim” was assigned for a child in a specific report. This includes a child who died, and the death was confirmed to be the result of child abuse and neglect. A child may be a victim in one report and a nonvictim in another report. It is important to note that the Child Welfare Outcomes Report uses the total reported number of child victims as opposed to a national estimate of child victims, which often is reported in the Child Maltreatment Report. The total number of victims reported in this report is rounded to the nearest 1,000.
@@ -18,5 +18,7 @@ For more information, see Trends in Foster Care and Adoption—FY 2005–FY 2014
 <br><br>
 Citation: Report prepared by the Children’s Bureau (ACYF, ACF) of the U.S. Department of Health and Human Services and is available on the <a href='https://www.acf.hhs.gov/cb/resource/cwo-10-14'>Children’s Bureau website</a>.
 <br><br>
-The linked graph below illustrates the number of children receiving a Child Protective Services (CPS) response by state for an allegation of maltreatment.
-<a href='https://cwoutcomes.acf.hhs.gov/cwodatasite/population/index'>https://cwoutcomes.acf.hhs.gov/cwodatasite/</a></p>
+The <a href='https://cwoutcomes.acf.hhs.gov/cwodatasite/population/index'>graph below</a> illustrates the number of children receiving a Child Protective Services (CPS) response by state for an allegation of maltreatment.</p>
+<img src="{{ "/img/1.jpg" | prepend: site.baseurl }}" style="display:block;margin: 0 auto;" />
+<img src="{{ "/img/2.jpg" | prepend: site.baseurl }}" style="display:block;margin: 0 auto;" />
+</div>

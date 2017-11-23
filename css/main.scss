@@ -7,7 +7,8 @@ $bgDefault   : #ffffff !important;
 $bgHighlight : #ffffff !important;
 $colDefault  : #000000 !important;
 $colHighlight: #333333 !important;
-$borderHighlight: #ddd !important;
+$borderHighlight: #ccf !important;
+$coltheme: #3232ff !important;
 .navbar-default {
   background-color: $bgDefault;
   border-color: $borderHighlight;
@@ -27,7 +28,7 @@ $borderHighlight: #ddd !important;
       > a, > a:hover, > a:focus {
         color: $colHighlight;
         background-color: $bgHighlight;
-  border-bottom: 2px solid #c90016;
+  border-bottom: 2px solid $coltheme;
   padding-bottom: 12px; }}
     > .open {
       > a, > a:hover, > a:focus {
@@ -67,7 +68,11 @@ $borderHighlight: #ddd !important;
 }
 
 .logo {
-	height: 22px;
+	height: 28px;
+}
+
+h2 {
+  color: $coltheme;
 }
 
 // Our variables
