@@ -1,0 +1,24 @@
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class-"row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" style="font-weight:bold;" href="{{ "/" | prepend: site.baseurl }}">CARAA<!--<img src="/img/hsaglogo.png" class="logo" />--></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li {% if page.url == "/" %}class="active"{% endif %}><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+            <li {% if page.url == "/org/" %}class="active"{% endif %}><a href="{{ "/org/" | prepend: site.baseurl }}">Organization</a></li>
+            <li {% if page.url == "/us/" %}class="active"{% endif %}><a href="{{ "/us/" | prepend: site.baseurl }}">United States</a></li>
+            <li {% if page.url == "/help/" %}class="active"{% endif %}><a href="{{ "/help/" | prepend: site.baseurl }}">You Can Help</a></li>
+            <li {% if page.url == "/reviews/" %}class="active"{% endif %}><a href="{{ "/reviews/" | prepend: site.baseurl }}">Reviews</a></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+</nav>
